@@ -1,0 +1,114 @@
+.loginimage{
+
+    box-shadow: 0 -15px 15px -15px black, 0 5px 3px -3px black;
+  }
+  .login_container {
+    margin-left: 23%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50vh;
+      margin-top: 200px;
+      width: 800px;
+    }
+    
+    .loginform {
+      box-shadow: 0.3rem 0.3rem black, -0.3rem -0.3rem #93a6aa;
+      height: 400px;
+      width: 320px;
+      background-image: linear-gradient(to right, rgb(0, 229, 255),rgb(175, 235, 235),rgb(191, 229, 254));
+      padding: 50px;
+      background-color: #00ffff;
+  }
+  
+  .logintitle {
+      color: #000000;
+      font-size: 30px;
+      font-weight: bold;
+      margin-bottom: -20px;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .loginmessage {
+      font-size: larger;
+      color: rgb(0, 0, 0);
+    }
+    
+    .loginusrinput {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      height: 20px;
+    }
+    
+    .usricon {
+      height: 50px;
+      margin-left: 20px;
+  }
+  .logininput_title
+  {
+      font-size: x-large;
+      font-weight: 500;
+      color: #000000;
+      margin-top: 20px;
+  }
+  
+  .pwdinput {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+  }
+  
+  .icon {
+        height: 50px;
+      margin-left: 20px;
+      cursor: pointer;
+    }
+    
+    .lgn-btn {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    
+    .login_btn {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #ffffff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    .signLogin {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+    
+    .sign_up {
+      margin-right: 5px;
+      font-weight: 500;
+    }
+    
+    .addlink {
+      color: #f200ff;
+      text-decoration: none;
+      font-size: large;
+    }
+    .username{
+      height: 40px;
+      width: 250px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      font-size: large;
+    }
+    .password{
+        margin-left: 10px;
+        height: 40px;
+        width: 250px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        font-size: large;
+    }

@@ -1,0 +1,44 @@
+
+.return-btn
+{
+  color: rgb(0, 0, 0);
+}
+.return-btn:hover
+{
+  transform: scale(1.5);
+  transition: 300ms;
+  color: rgb(12, 69, 255);
+}
+.return-home
+{
+    margin-top: 10px;
+    width:120px;
+    border-radius: 45px;
+    background-color: black;
+    color: white;
+}
+.return-home:hover
+{
+    width:150px;
+    transition: 500ms;
+    transform: scale(1.1);
+    background-color: rgb(0, 0, 255);
+    border-color: aqua;
+    border-width: 5px;
+    font-size: large;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+}
+.below_succ
+{
+    margin-top: -20px;
+    background-color: white;
+    margin-left: 25%;
+    width: 52%;
+    height:150px;
+}
+.pay_tick
+{
+    margin-left: 25%;
+    width: 52%;
+}

@@ -1,0 +1,43 @@
+
+.form{
+   border-radius: 5px;
+   width: 550px;
+   margin: auto;
+   margin-top: 5%;
+   padding: 20px;
+   background: linear-gradient(90deg, rgb(65, 255, 252) 14%, rgb(255, 0, 212) 51%, rgb(255, 34, 0) 100%);
+   color: white;
+   display: flex;
+   justify-content: space-around;
+
+}
+.op
+{
+   display: flex;
+   flex-direction: column;
+}
+.up_label
+{
+   border-radius: 10px;
+   margin-top: 10px;
+}
+.reg_submit
+{
+   border-radius: 10px;
+   color: aliceblue;
+   background-color: black;
+   border-width: 3px;
+}
+.reg_submit:hover
+{
+   transform: scale(1.5);
+   transition: 0.5s;
+   color: aliceblue;
+   background-color: rgb(25, 0, 255);
+   border-color: aliceblue;
+}
+.reg_image
+{
+   height: 150px;
+   width: 550px;
+}

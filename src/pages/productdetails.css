@@ -1,0 +1,145 @@
+
+.prod_details_wrapper
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+.prod_details_left_col {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+    gap: 4rem;
+}
+.prod_details_right_col {
+    gap: 1rem;
+    height: 600px;
+    width: 500px;
+}
+
+.prod_details_tabs {
+    display: grid;
+    gap: 2.5rem;
+    margin-right: 70px;
+}
+
+.prod_details_info {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.prod_details_ratings {
+    display: flex;
+}
+.prod_details_buy_btn 
+{
+        width: 200px;
+}
+.tab_item{
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+}
+.tab_item_image
+{
+    border: 2px solid black;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.prod_details_img
+{
+    border: 2px solid black;
+
+}
+.prod_details_title
+{
+    font-size: 35px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 0, 0);
+}
+.del_price
+{
+    color: grey;
+}
+.price
+{
+    font-size: 30px;
+    font-weight: 600;
+}
+.saved_price
+{
+    font-size: larger;
+    font-weight: 500;
+    color: rgb(0, 175, 0);
+}
+.prod_details_price
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.badge
+{
+    background-color: green;
+    text-align: center;
+    width: 100px;
+    height: 25px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.off
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 10px;
+}
+.off li{
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    border-radius: 2px;
+}
+.off ul{
+    border: 0ch;
+}
+.prod_details_offers
+{
+    color: blue;
+    font-size: large;
+    font-weight: 100;
+}
+.details_btn
+{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    height: 35px;
+    width: 150px;
+    font-size: large;
+    margin-top: 10px;
+    margin-left: 75%;
+    cursor: pointer;
+}
+.details_btn:hover
+{
+    background-color: green;
+    transform: scale(1);
+    transition: 150ms;
+}
+.details_btn.active
+{
+    background-color: green;
+    transform: scale(1);
+    transition: 150ms;
+}
+
+.tab_items_image
+{
+    border:  1px solid black;
+    margin-left: 20px;
+}

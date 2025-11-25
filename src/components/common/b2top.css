@@ -1,0 +1,13 @@
+.back_top {
+    position: fixed;
+    bottom: 2vh;
+    right: 1.3vw;
+    z-index: 99;
+    background-color: red;
+    color: #fff;
+    font-size: 1.4rem;
+    padding: 2px;
+    cursor: pointer;
+    border-radius: 3px;
+
+}

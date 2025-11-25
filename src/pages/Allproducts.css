@@ -1,0 +1,17 @@
+.section
+{
+    display: flex;
+}
+.section ul
+{
+    list-style: none;
+}
+.filterbar_wrapper {
+    width: 250px;
+    margin-right: -130px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    border: 2px solid black;
+}

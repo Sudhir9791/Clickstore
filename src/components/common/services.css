@@ -1,0 +1,25 @@
+.services_card {
+    display: flex;
+    flex-direction: row;
+    gap: 10px; 
+}
+.services_wrapper
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.services_icon {
+    margin-left: 100px;
+    opacity: 0.9;
+    font-size: 50px;
+    line-height: 1;
+    color: red;
+}
+
+.services_details {
+        font-size: 20px;
+        margin-top: -20px;
+        opacity: 0.8;
+    
+}

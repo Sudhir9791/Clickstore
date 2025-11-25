@@ -1,0 +1,159 @@
+#header
+{
+  width: 100%;
+  height: 95px;
+    background-color: black;
+    position: sticky;
+}
+.logo
+{
+  margin-top: -10px;
+    height: 60px;
+    width: 230px;
+}
+.navbar
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50px;
+    gap: 870px;
+    position: sticky;
+    background-color: black; 
+}
+.nav_actions
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: black;
+    position: sticky;
+    gap: 60px;
+}
+.search_action {
+    position:relative;
+    display: inline-block;
+    align-items: center;
+    color: white;
+    font-size: xx-large;
+    margin-top: 25px;
+  }
+  
+  .search_action .tooltip{
+    visibility: hidden;
+  width: 70px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  font-size: large;
+  border: 1px solid black;
+  font-weight: 600;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -35px;
+  }
+  
+  .search_action:hover .tooltip {
+    visibility: visible;
+  }
+.cart_action{
+    position:relative;
+    display: inline-block;
+    color: white;
+    font-size: xx-large;
+    margin-top: 25px;
+  }
+  
+  .cart_action .tooltip{
+    visibility: hidden;
+    width: 70px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    font-size: large;
+    border: 1px solid black;
+    font-weight: 600;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-top: 30px;
+    margin-left: -35px;
+  }
+  
+  .cart_action:hover .tooltip {
+    visibility: visible;
+  }
+.user_action {
+    position:relative;
+    display: inline-block;
+    align-items: center;
+    color: white;
+    font-size: xx-large;
+    margin-top: 25px;
+  }
+  
+  .user_action .dropdown_menu{
+    visibility: hidden;
+  width: 300px;
+  font-size: large;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 6px;
+  padding: 5px 0;
+  font-weight: 600;
+  border:  1px solid black;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -235px;
+  }
+  
+  .user_action:hover .dropdown_menu {
+    visibility: visible;
+  }
+  .hdata
+  {
+    list-style: none;
+    background-color: rgb(255, 255, 255);
+
+  }
+  .hdata a
+  {
+    color: rgb(255, 0, 0);
+
+  }
+  .head_badge
+  {
+    margin-top: -5px;
+    display: grid;
+    place-items: center;
+    width: 20px;
+    height: 20px;
+    font-size: medium;
+    position: absolute;
+    top: 0;
+    right: -20px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+  }
+  
+
+.section_head {
+  margin-bottom: 4rem;
+  text-align: center;
+  color: rgb(255, 8, 0);
+  font-size: x-large;
+}
+.l
+{
+  color: aliceblue;
+  font-size: large;
+}

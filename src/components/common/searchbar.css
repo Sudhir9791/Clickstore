@@ -1,0 +1,33 @@
+
+.search_results
+{
+    width: 500px;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 1rem;
+    border: 1px solid black;
+    scrollbar-width: none;
+}
+.searchbar_content
+{
+    background-color: rgb(255, 255, 255);
+}
+.sr{
+    height: 35px;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-weight: 500;
+    border: 1px solid rgb(0, 0, 0);
+}
+.field
+{
+    margin-top: 10px;
+    height: 35px;
+    width: 600px;
+}
